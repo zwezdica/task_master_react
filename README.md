@@ -3,7 +3,14 @@
 
 
 
-TaskMaster is a modern web application for task management with user authentication, allowing you to organize your daily tasks in a simple and intuitive way.
+TaskMaster is a modern web application for task management with user authentication, allowing you to organize your daily tasks in a simple and intuitive way.     
+
+<p align="center">
+  <img src="./screenshots/main.png" width="800" alt="Task Management Interface"/>
+  <br>
+  <em>Fig 1. TaskMaster dashboard showing task cards and filters</em>
+</p>
+
 
 ## ✨ Features
 
@@ -12,7 +19,29 @@ TaskMaster is a modern web application for task management with user authenticat
 - **Interactive task list** with status indicators (In Progress/Completed)
 - **Responsive design** that works on all devices
 - **Data privacy** - each user sees only their own tasks
-- **Animations and modern UI components** for better user experience
+- **Animations and modern UI components** for better user experience     
+
+
+
+<p align="center">
+  <img src="./screenshots/home_page.png" width="800" alt="Home"/>
+  <br>
+  <em>Fig 2. Home Page</em>
+</p>     
+
+
+<p align="center">
+  <img src="./screenshots/login.png" width="800" alt="Login"/>
+  <br>
+  <em>Fig 3. Login Page</em>
+</p>
+
+
+<p align="center">
+  <img src="./screenshots/add_task.png" width="800" alt="Add Task"/>
+  <br>
+  <em>Fig 4. Add Task </em>
+</p>
 
 ## 🛠 Technologies
 
