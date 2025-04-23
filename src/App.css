@@ -1,0 +1,77 @@
+:root {
+  --primary-color: #c2d7fa;
+  --secondary-color: #83a4dd;
+  --error-color: #ff6b6b;
+  --dark-bg: #121212;
+  --light-text: #ffffff;
+  --card-bg: rgba(255, 255, 255, 0.1);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--dark-bg);
+  color: var(--light-text);
+  font-family: "Comfortaa", sans-serif;
+  overflow-x: hidden;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+.features-section {
+  background-color: var(--dark-bg);
+  padding: 4rem 2rem;
+}
+
+.empty-task-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes gentlePulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 1rem;
+  }
+
+  .features-section {
+    padding: 2rem 1rem;
+  }
+}
