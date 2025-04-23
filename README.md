@@ -43,7 +43,12 @@ TaskMaster is a modern web application for task management with user authenticat
   <em>Fig 4. Add Task </em>
 </p>
 
-## 🛠 Technologies
+## 🛠 Technologies    
+
+- **Backend**:
+  - bcrypt for password hashing
+  - JWT (JSON Web Tokens) for authentication
+  - LocalStorage for data persistence
 
 - **Frontend**:
   - React.js
