@@ -67,7 +67,7 @@ TaskMaster is a modern web application for task management with user authenticat
 
 2. Install dependencies:
    ```bash
-   cd taskmaster
+   cd task_master_react
    npm install
 
 3. Start the development server:
