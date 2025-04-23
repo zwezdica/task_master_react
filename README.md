@@ -29,7 +29,7 @@ TaskMaster is a modern web application for task management with user authenticat
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/taskmaster.git
+   git clone https://github.com/zwezdica/task_master_react.git
 
 2. Install dependencies:
    ```bash
@@ -110,4 +110,4 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 
 👨‍💻 Author: Mirjana Ilijic
-📧 Contact: mzvezdic@gmail.com
+
