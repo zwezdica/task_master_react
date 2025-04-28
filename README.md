@@ -59,7 +59,37 @@ TaskMaster is a modern web application for task management with user authenticat
   - Animate.css for animations
 
 
-## 🚀 Getting Started
+
+## 🚨 Important Setup Order
+Backend server MUST be running before the frontend application!
+
+### Backend Setup
+
+1. Installation
+
+```bash
+git clone https://github.com/zwezdica/task_master_backend.git
+cd task_master_backend
+npm install
+```
+
+2. Configuration
+Create .env file:
+
+```env
+MONGO_URI=mongodb://localhost:27017/to_do
+JWT_SECRET=your_strong_secret_here
+PORT=5000
+```
+
+3. Running the Server
+
+```bash
+npm start
+```
+
+## Frontend 
+### 🚀 Getting Started
 
 1. Clone the repository:
    ```bash
