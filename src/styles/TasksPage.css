@@ -1,0 +1,11 @@
+.tasks-page {
+  min-height: 100vh;
+  background-color: var(--dark-bg);
+  padding-top: 80px;
+}
+
+.tasks-page > div {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+}

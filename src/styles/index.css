@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #c2d7fa;
+  --secondary-color: #83a4dd;
+  --error-color: #ff6b6b;
+  --dark-bg: #121212;
+  --light-text: #ffffff;
+  --card-bg: rgba(255, 255, 255, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background-color: var(--dark-bg);
+  color: var(--light-text);
+  font-family: "Comfortaa", sans-serif;
+  overflow-x: hidden;
+}
