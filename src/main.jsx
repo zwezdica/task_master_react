@@ -4,7 +4,7 @@ import App from "./App";
 import axios from "axios";
 import "./styles/index.css";
 
-axios.defaults.baseURL = "http://localhost:5000";
+axios.defaults.baseURL = "http://localhost:3000";
 
 axios.interceptors.request.use((config) => {
   const token = localStorage.getItem("token");
